@@ -18,29 +18,37 @@
     list-style: none;
 }
 
-.view{
-    display: none;
-}
-
-/* .main-page{
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-} */
 
 /* #endregion utilities */
 
 
 /* #region-sidebar */
 
-#main-page{
 
-    .sidebar{
+main{
+    /* width: 480px; */
+    background-color:  aqua;
+    display: flex;
+}
 
-        background-color: aqua;
-        display: flex;
-        flex-direction: column;
+.left-nav{
+    background-color: black;
+    max-width: 10%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    .big{
+        display: none;
     }
+}
+
+.top-nav{
+    background-color: orange;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;  
     
-    
+    .btn-upgrade{
+        
+    }
 }
