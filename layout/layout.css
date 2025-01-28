@@ -18,6 +18,9 @@
     list-style: none;
 }
 
+.l-none{
+    display: none;
+}
 
 /* #endregion utilities */
 
@@ -26,19 +29,28 @@
 
 
 main{
-    /* width: 480px; */
+    width: 480px;
     background-color:  aqua;
     display: flex;
 }
 
 .left-nav{
-    background-color: black;
-    max-width: 10%;
+    background-color: aquamarine;
     gap: 2rem;
     display: flex;
     flex-direction: column;
     .big{
         display: none;
+    }
+
+    .download{
+        text-align: center;
+    }
+}
+
+#playlist{
+    h4{
+        color: white;
     }
 }
 
@@ -49,6 +61,6 @@ main{
     width: 100%;  
     
     .btn-upgrade{
-        
+
     }
 }
