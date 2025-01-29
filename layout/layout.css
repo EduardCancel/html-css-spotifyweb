@@ -16,6 +16,7 @@
 
     display: flex;
     height: calc( 100vh - 70px );
+    width: 100%;
 
     .sidebar{
         background-color: #000000;
@@ -41,6 +42,43 @@
         background-color: #141922;
         overflow-y: auto;
         height: 100%;
+
+        .upgrade{
+            background-color: blue;
+            position: sticky;
+            top: 0;
+            margin: 0;
+            right: 0;
+            width: 100%;
+            text-align: end;
+            padding: 1rem;
+        }
+
+        section{
+            padding: 1rem;
+
+            h2{
+                color: white;
+                padding: 0.5rem 0;
+            }
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .col-2{
+            min-height: 250px;
+            width: calc(100% / 2 - 1rem);
+            background-color: red;
+        }
     }
 
+}
+
+.bottom{
+    height: 70px;
+    background-color: #282828;
 }
