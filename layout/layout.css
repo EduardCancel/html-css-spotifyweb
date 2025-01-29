@@ -16,6 +16,14 @@
     width: 100%;
 }
 
+.ds-none{
+    display: none;
+}
+
+.l-none{
+    list-style: none;
+}
+
 .top{
 
     display: flex;
@@ -33,11 +41,39 @@
         .sidebar-top{
             min-height: 300px;
             background-color: gray;
+
+            .logo{
+                margin-bottom: 1rem ;
+            }
+
+            .navigation{
+                
+                img{
+                    margin-bottom: 0.5rem;
+                }
+            }
+
+            .playlist{
+
+                h3{
+                    color: white;
+                }
+
+                ul{
+                    color: lightgray;
+                }
+            }
         }
 
         .sidebar-bottom{
             min-height: 50px;
             background-color: gray;
+            
+            span{
+                display: none;
+            }
+            
+            
         }
     }
 
@@ -89,6 +125,7 @@
                 color: lightgray;
                 text-align: center;
             }
+
         }
     }
 
